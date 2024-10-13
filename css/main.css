@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+h1{
+    font-family: Nanum Myeongjo bold, erif;
+}
+
+nav.bg-main{
+    background-color: #0097B2;
+}
+.boton button{
+    border-radius: 20px;
+    border: 2px solid #0c0c0c;
+    background-color: #0097B2;
+    height: 45px;
+}
+
+.boton button{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: url(../img/) no-repeat;
+    background-size: cover;
+}
+
