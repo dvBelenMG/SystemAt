@@ -31,7 +31,7 @@
     <div class="row mt-2 justify-content-center align-items-center text-center">
     <label for="">fecha de nacimiento</label>
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <input type="date" name="fechaNac" id="FechaNac" class="form-control">
+        <input type="date" name="fechaNac" id="FechaNac" class=" inp form-control">
     </div>
 
     </div>
@@ -39,7 +39,7 @@
     <div class="row mt-2 justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <input type="text" name="nombre" id="Nombre" placeholder = "ingrese su nombre (s) " class="form-control">
+        <input type="text" name="nombre" id="Nombre" placeholder = " inp ingrese su nombre (s) " class="inp form-control">
     </div>
 
     </div>
@@ -48,11 +48,11 @@
     <div class="row mt-2  justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-5 col-lg-5 ">
-        <input type="text" name="ap" id="Ap" placeholder = "Apellido paterno" class="form-control mb-2">
+        <input type="text" name="ap" id="Ap" placeholder = "Apellido paterno" class=" inp form-control mb-2">
     </div>
 
     <div class="col-sm-10 col-md-5 col-lg-5">
-        <input type="text" name="am" id="Am" placeholder = "Apellido materno" class="form-control mb-2">
+        <input type="text" name="am" id="Am" placeholder = "Apellido materno" class=" inp form-control mb-2">
     </div>
 
     </div>
@@ -61,7 +61,7 @@
     <div class="row mt-2 justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <input type="tel" name="tel" id="Tel" placeholder = "numero de teléfomo (10) caracteres" class="form-control">
+        <input type="tel" name="tel" id="Tel" placeholder = "numero de teléfomo (10) caracteres" class=" inp form-control">
     </div>
 
     </div>
@@ -70,11 +70,11 @@
     <div class="row mt-2  justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-5 col-lg-5 ">
-        <input type="Email" name="email" id="Email" placeholder = "Email" class="form-control mb-2">
+        <input type="Email" name="email" id="Email" placeholder = "Email" class=" inp form-control mb-2">
     </div>
 
     <div class="col-sm-10 col-md-5 col-lg-5">
-        <input type="password" name="pass" id="Pass" placeholder = "Password" class="form-control mb-2">
+        <input type="password" name="pass" id="Pass" placeholder = "Password" class=" inp form-control mb-2">
     </div>
 
     </div>
@@ -126,8 +126,8 @@
     <!--ingresar Telefono-->
     <div class="row mt-2 mb-4 justify-content-center">
             <div class="col-sm-10 col-md-10 col-lg-10">
-              <div class="boton">
-                <input type="submit" value="registrar" name="registrar" class=" form-control  mb-5 text-light">
+              <div class="">
+                <input type="submit" value="registrar" name="registrar" class="boton form-control  mb-5 text-light">
 
               </div>
             </div>

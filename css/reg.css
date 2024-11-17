@@ -3,15 +3,16 @@
 h2{
     font-family: Nanum Myeongjo semibold, erif;
 }
-.container .boton input{
-    border-color: 5px solid #23C1DB;
+.container .boton{
+    border-radius: 10px;
+    border: 3px solid #23C1DB;
     background-color: #75D1E0;
 
     font-family: poppins, erif;
     
 }
 
-.container input{
+.container .inp {
     border-radius: 10px;
     border: 1.5px solid #A4A2A2;
 }
