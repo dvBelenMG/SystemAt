@@ -118,7 +118,7 @@
                     Asepto los terminos y condiciones
                 </label>
                 <div class="invalid-feedback">
-                    You must agree before submitting.
+                    debes aseptsr los terminos y condiciones
                 </div>
             </div>
         </div>
@@ -132,6 +132,7 @@
               </div>
             </div>
           </div>
+          
     
 </div>
 </body>
