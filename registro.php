@@ -118,7 +118,7 @@
                     Asepto los terminos y condiciones
                 </label>
                 <div class="invalid-feedback">
-                    debes aseptsr los terminos y condiciones
+                    debes aseptar los terminos y condiciones
                 </div>
             </div>
         </div>
