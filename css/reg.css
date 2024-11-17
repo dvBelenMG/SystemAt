@@ -3,7 +3,7 @@
 h2{
     font-family: Nanum Myeongjo semibold, erif;
 }
-.boton{
+.container .boton input{
     border-color: 5px solid #23C1DB;
     background-color: #75D1E0;
 
@@ -11,7 +11,7 @@ h2{
     
 }
 
-input{
+.container input{
     border-radius: 10px;
     border: 1.5px solid #A4A2A2;
 }
