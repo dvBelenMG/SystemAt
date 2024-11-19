@@ -21,7 +21,7 @@
 </nav>
 
 <!--img de encabezado-->
-<img src="img/terapia.png" class="encabezado img-fluid" alt="...">
+<img src="img/terapia.png" class="encabezado img-fluid w-100" alt="...">
 
 <div class="container">
     <!--barra de busqueda-->
