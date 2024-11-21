@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include 'process\menu1.php';?>
+<?php include 'process\menuE.php';?>
 
 <nav class="navbar navbar-light bg-light shadow">
     <div class="container-fluid">
