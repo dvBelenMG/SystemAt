@@ -41,7 +41,7 @@
 
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             
-        <nav>no tienes una cuenta? <a href="">registrate</a></nav>
+        <nav>no tienes una cuenta? <a href="">Iniciar sesion</a></nav>
 
         </div>
             
