@@ -16,7 +16,7 @@
             <img src="img/list.svg" width="40px" alt="">
         </a>
         <a class="navbar-brand mx-auto" href="#">
-            <h4>INICIO</h4>
+            <h4>ABILITYTALK</h4>
         </a>
     </div>
 </nav>
