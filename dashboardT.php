@@ -52,30 +52,33 @@
                 <p class="small">Registro de<br>actividades</p>
             </div>
         </div>
-<div class="row mt-4 justify-content-center">
-    <div class="card text-center" style="width: 16rem;">
-      <img src="img/CMLS.png" class="card-img-top" alt="...">
-      <div class="card-body">
-     <h6 class="card-title">¿Cómo manejar la situación?</h6>
-     <a href="#" class="btn btn-info" style="color: white;">Leer</a>
-   </div>
- </div>
- <div class="card text-center" style="width: 16rem;">
-      <img src="img/CSCPA.png" class="card-img-top" alt="...">
-      <div class="card-body">
-     <h6 class="card-title">¿Cómo saber cuando pedir ayuda?</h6>
-     <a href="#" class="btn btn-info" style="color: white;">Leer</a>
-   </div>
- </div>
- <div class="card text-center" style="width: 16rem;">
-      <img src="img/CPAMH.png" class="card-img-top" alt="...">
-      <div class="card-body">
-     <h6 class="card-title">¿Cómo puedo ayudar a mi hijO?</h6>
-     <a href="#" class="btn btn-info" style="color: white;">Leer</a>
-   </div>
- </div>
-</div>
-    <script src="js\bootstrap.bundle.min.js"></script>
+
+        <div class="row mt-4 justify-content-center">
+            <div class="card text-center" style="width: 16rem;">
+                <img src="img/CMLS.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="card-title">¿Cómo manejar la situación?</h6>
+                    <a href="Guardados.html" class="btn btn-info" style="color: white;">Leer</a>
+                </div>
+            </div>
+
+            <div class="card text-center" style="width: 16rem;">
+                <img src="img/CSCPA.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="card-title">¿Cómo saber cuando pedir ayuda?</h6>
+                    <a href="Guardados.html" class="btn btn-info" style="color: white;">Leer</a>
+                </div>
+            </div>
+
+            <div class="card text-center" style="width: 16rem;">
+                <img src="img/CPAMH.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6 class="card-title">¿Cómo puedo ayudar a mi hijo?</h6>
+                    <a href="Guardados.html" class="btn btn-info" style="color: white;">Leer</a>
+                </div>
+            </div>
+        </div>
+<script src="js\bootstrap.bundle.min.js"></script>
 
 </body>
 

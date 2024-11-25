@@ -5,18 +5,19 @@
   </div>
   <div class="offcanvas-body">
     <div class="row mt-2">
-        <p><img src="img/home.svg" alt="" srcset="">inicio</p>
+      <p><img src="img/home.svg" alt="" srcset="">inicio</p>
     </div>
     <div class="row mt-2">
-        <p><img src="img/settings-sharp.svg" alt="" srcset="">ajustes</p>
+      <p><img src="img/settings-sharp.svg" alt="" srcset="">ajustes</p>
     </div>
     <div class="row mt-2">
-        <p><img src="img/comment.svg" alt="" srcset="">mensajes</p>
+      <p><img src="img/comment.svg" alt="" srcset="">mensajes</p>
     </div>
     <div class="row mt-2">
-        <p><img src="img/user-avatar-filled.svg" alt="" srcset="">perfil</p>
+      <p><img src="img/user-avatar-filled.svg" alt="" srcset="">perfil</p>
     </div>
     <div class="row mt-2">
+      <a href="guardados.html" class="text-decoration-none text-dark">
         <p><img src="img/Saved.svg" alt="" srcset="">Guardados</p>
     </div>
   </div>
