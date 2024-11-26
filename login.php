@@ -35,13 +35,13 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             
-        <input type="submit" value="registrar" name="registrar" class="boton form-control  mt-3 text-light">
+        <input type="submit" value="Iniciar Sesion" name="registrar" class="boton form-control  mt-3 text-light">
 
         </div>
 
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             
-        <nav>no tienes una cuenta? <a href="">registrate</a></nav>
+        <nav>no tienes una cuenta? <a href="registro.php">Registrarse</a></nav>
 
         </div>
             

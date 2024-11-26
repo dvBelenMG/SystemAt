@@ -39,7 +39,7 @@
     <div class="row mt-2 justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <input type="text" name="nombre" id="Nombre" placeholder = " inp ingrese su nombre (s) " class="inp form-control">
+        <input type="text" name="nombre" id="Nombre" placeholder = "ingrese su nombre (s) " class="inp form-control">
     </div>
 
     </div>
@@ -115,10 +115,10 @@
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                 <label class="form-check-label" for="invalidCheck">
-                    Asepto los terminos y condiciones
+                    Acepto los terminos y condiciones
                 </label>
                 <div class="invalid-feedback">
-                    debes aseptar los terminos y condiciones
+                    debes aceptar los terminos y condiciones
                 </div>
             </div>
         </div>
