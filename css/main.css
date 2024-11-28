@@ -19,3 +19,21 @@ a{
 .poppins{
     font-family: poppins, erif;
 }
+
+.text-poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.font-bold{
+    font-weight: 600;
+}
+
+.bg-ros{
+    background: #FDC5A6;
+}
+.img{
+    position: static;
+    align-items: end;
+}
+.radius-1{
+    border-radius: 10px;
+}

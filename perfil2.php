@@ -40,10 +40,10 @@
         </div>
         <div class="row justify-content-center">
             <div class=" dts col-sm-5 col-md-5 col-lg-5 bg-cont ">
-                especialista en logopedia
+                <img src="img/duffle-fill.svg" class="p-2">especialista en logopedia
             </div>
             <div class=" dts col-sm-5 col-md-5 col-lg-5  bg-cont ">
-            Universidad Tres Culturas (UTC)
+            <img src="img/bank2.svg" class="p-2" srcset="">Universidad Tres Culturas (UTC)
             </div>
         </div>
         <div class="row justify-content-center">
