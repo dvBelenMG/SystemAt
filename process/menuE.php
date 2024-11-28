@@ -5,16 +5,16 @@
   </div>
   <div class="offcanvas-body">
     <div class="row mt-2">
-        <p><img src="img/home.svg" alt="" srcset="">inicio</p>
+        <p><img src="img/home.svg" class="p-2" srcset="">inicio</p>
     </div>
     <div class="row mt-2">
-        <p><img src="img/settings-sharp.svg" alt="" srcset="">ajustes</p>
+        <p><img src="img/settings-sharp.svg" class="p-2" srcset="">ajustes</p>
     </div>
     <div class="row mt-2">
-        <p><img src="img/comment.svg" alt="" srcset="">mensajes</p>
+        <p><img src="img/comment.svg" class="p-2" srcset="">mensajes</p>
     </div>
     <div class="row mt-2">
-        <p><img src="img/user-avatar-filled.svg" alt="" srcset="">perfil</p>
+        <p><img src="img/user-avatar-filled.svg" class="p-2" srcset="">perfil</p>
     </div>
   </div>
 </div>
