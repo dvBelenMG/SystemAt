@@ -1,5 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    .btn{
+        
+        font-family: "Poppins", serif;
+        width: 200px;
+        margin: 12px;
+        background-color:#75D1E0;
+        border-radius: 10px;
 
-h3{
-    font-family: Nanum Myeongjo, erif;
-}
+    }
+
+    .btnE{
+        font-family: "Poppins", serif;
+        border: none;
+        margin: 10px;
+        background-color:#8EC5BF;
+        border-radius: 10px;
+    }
+    .tUser{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        color: #33E854;
+    }
+    .bg-cont{
+        background: #F3F3F3;
+    }
+
+    .tUser{
+        border-radius:10px 10px 0 0;
+        
+    }
+    .contEnd{
+        border-radius:0 0 10px 10px
+    }
+    .dts{
+        border: .10rem solid #808080; 
+    }
+    .dts2{
+        border-radius: 10px;
+        background: url(../img/likeme.png);
+        background-size: cover;
+    }
+    .dts3{
+        border-radius: 10px;
+        background: url(../img/achievement.png);
+        background-size: cover;
+    }
+    .border-round{
+        border-radius: 10px;
+    }
+    .text-poppins{
+        font-family: 'Poppins', sans-serif;
+    }
+    .font-bold{
+        font-weight: 600;
+    }
+    .font-1{
+        font-size: 14px;
+    }
