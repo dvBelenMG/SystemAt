@@ -21,9 +21,9 @@
         <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center text-center mb-2 mt-5">
             
         <h2>Inicio de sesión</h2>
-
+        <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center    ">
+        <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center">
             
             <input type="email" name="" id="" placeholder ="Email" class=" inp form-control mt-3">
 

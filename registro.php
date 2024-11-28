@@ -1,3 +1,7 @@
+<?php
+include 'include/conexion.php';
+include 'include/Reg.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +23,7 @@
             </div>
         </div>
     </div>
-
+    <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
     <div class="row mt-1">
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             <h2>Registro de usuario</h2>
@@ -39,7 +43,7 @@
     <div class="row mt-2 justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <input type="text" name="nombre" id="Nombre" placeholder = "ingrese su nombre (s) " class="inp form-control">
+        <input type="text" name="nombre" id="NombreUser" placeholder = "ingrese su nombre (s) " class="inp form-control">
     </div>
 
     </div>
@@ -48,11 +52,11 @@
     <div class="row mt-2  justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-5 col-lg-5 ">
-        <input type="text" name="ap" id="Ap" placeholder = "Apellido paterno" class=" inp form-control mb-2">
+        <input type="text" name="ap" id="ApellidoP" placeholder = "Apellido paterno" class=" inp form-control mb-2">
     </div>
 
     <div class="col-sm-10 col-md-5 col-lg-5">
-        <input type="text" name="am" id="Am" placeholder = "Apellido materno" class=" inp form-control mb-2">
+        <input type="text" name="am" id="ApellidoM" placeholder = "Apellido materno" class=" inp form-control mb-2">
     </div>
 
     </div>
@@ -61,7 +65,7 @@
     <div class="row mt-2 justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <input type="tel" name="tel" id="Tel" placeholder = "numero de teléfomo (10) caracteres" class=" inp form-control">
+        <input type="tel" name="tel" id="Telefono" placeholder = "numero de teléfomo (10) caracteres" class=" inp form-control">
     </div>
 
     </div>
@@ -74,7 +78,7 @@
     </div>
 
     <div class="col-sm-10 col-md-5 col-lg-5">
-        <input type="password" name="pass" id="Pass" placeholder = "Password" class=" inp form-control mb-2">
+        <input type="password" name="pass" id="Password" placeholder = "Password" class=" inp form-control mb-2">
     </div>
 
     </div>
@@ -83,24 +87,24 @@
     <div class="row mt-2 justify-content-center align-items-center">
         
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <select name="" id="" class="form-select" placeholder="selecciona tu tipo de usuario">
-            <option >selecciona tu genero</option>
-            <option value="">Femenini</option>
-            <option value="">Masculino</option>
-            <option value="">indefinido</option>
+        <select name="Genero" id="ID_Genero" class="form-select" placeholder="selecciona tu tipo de usuario">
+        <option value="" disabled selected>selecciona tu genero</option>
+            <option value="1">Masculino</option>
+            <option value="2">Femenino</option>
+            <option value="3">indefinido</option>
         </select>
     </div>
-
+    <input type="hidden" name="EstadoUsuario" value="1">
     </div>
     <!--seleccionar tipo de usuario-->
     <div class="row mt-2 justify-content-center align-items-center">
 
     <div class="col-sm-10 col-md-10 col-lg-10">
-        <select name="" id="" class="form-select" placeholder="selecciona tu tipo de usuario">
-            <option >selecciona tu tipo de usuario</option>
-            <option value="">paciente</option>
-            <option value="">tutor</option>
-            <option value="">especialista</option>
+        <select name="TUsuario" id="ID_TUsuario" class="form-select" placeholder="selecciona tu tipo de usuario">
+        <option value="" disabled selected>selecciona tu tipo de usuario</option>
+            <option value="2">tutor</option>
+            <option value="3">paciente</option>
+            <option value="4">especialista</option>
         </select>
     </div>
 
