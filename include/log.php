@@ -21,6 +21,10 @@ if (isset($_POST['Iniciar_Sesion'])) {
         $_SESSION['login'] = TRUE;
         $_SESSION['usuario'] = $row['Email'];
 
+        // aqui namas actualizo el estado del usuario a online en la bd
+        $updateEstado = "UPDATE usuarios SET id_EstadoUsuario = 1 WHERE Email = '$remail'";
+        $conecta->query($updateEstado);
+
         // aqui ya empiezo yo a redirigir según el tipo de usuario,aunque todavia no se si poner al administrador
         switch ($tipoUsuario) {
             case 2:
@@ -47,3 +51,4 @@ if (isset($_POST['Iniciar_Sesion'])) {
     $conecta->close();
 }
 ?>
+
