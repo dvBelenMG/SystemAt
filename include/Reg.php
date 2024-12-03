@@ -12,7 +12,7 @@ if (isset($_POST['registrar'])) {
     $FechaNac = mysqli_real_escape_string($conecta, $_POST['fechaNac']);
     $genero = mysqli_real_escape_string($conecta, $_POST['Genero']);
     $tipoUsuario = mysqli_real_escape_string($conecta, $_POST['TUsuario']);
-    $password = mysqli_real_escape_string($conecta, $_POST['pass']);
+    $password = mysqli_real_escape_string($conecta, md5($_POST['pass']));//aqui dejare la encriptacion en default
     $estadoUsuario = mysqli_real_escape_string($conecta, $_POST['EstadoUsuario']);
 
     //todos estos empty Verifican si algún campo está vacío jajajsjajsd
@@ -26,15 +26,20 @@ if (isset($_POST['registrar'])) {
         if ($result->num_rows > 0) {
             echo "<script>alert('El correo ya está registrado.');</script>";
         } else {
-            
-            $passwordHash = password_hash($password, PASSWORD_DEFAULT);//aqui dejare la encriptacion en default
             $FechaReg = date("Y-m-d"); // Fecha de registro automatica
 
             $sql = "INSERT INTO usuarios (NombreUser, ApellidoP, ApellidoM, Telefono, Email, FechaNac, FechaReg, Password, id_EstadoUsuario, ID_Tusuario, ID_Genero)
-                    VALUES ('$nombre', '$apellidoP', '$apellidoM', '$telefono', '$email', '$FechaNac', '$FechaReg', '$passwordHash', '$estadoUsuario', '$tipoUsuario', '$genero')";
+                    VALUES ('$nombre', '$apellidoP', '$apellidoM', '$telefono', '$email', '$FechaNac', '$FechaReg', '$password', '$estadoUsuario', '$tipoUsuario', '$genero')";
 
             if ($conecta->query($sql) === TRUE) {
                 echo "<script>alert('Registro exitoso');</script>";
+                if($tipoUsuario==2){
+                    header("location:../SystemAt-main/dashboardT.php");}
+                else if($tipoUsuario==3){
+                    header("location:../SystemAt-main/dashboardP.php");    
+                }
+                else if($tipoUsuario==4){
+                    header("location:../SystemAt-main/dashboardE.php");}
             } else {
                 echo "Error: " . $sql . "<br>" . $conecta->error;
             }
