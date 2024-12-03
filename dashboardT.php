@@ -1,3 +1,7 @@
+<?php 
+include 'include/conexion.php';
+include 'include/Reg.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 

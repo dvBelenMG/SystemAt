@@ -31,9 +31,9 @@
 
         <div class="row mt-2 justify-content-center">
           <div class="col-sm-10 col-md-4 col-lg-4 mt-2">
-            <div class="boton">
             
-                <a href="login.php">
+            <a href="login.php">
+                <div class="boton">
                 <button class="form-control">INICIAR SESION</button>
                 </a>
               

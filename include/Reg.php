@@ -34,12 +34,12 @@ if (isset($_POST['registrar'])) {
             if ($conecta->query($sql) === TRUE) {
                 echo "<script>alert('Registro exitoso');</script>";
                 if($tipoUsuario==2){
-                    header("location:../SystemAt-main/dashboardT.php");}
+                    header("location:../SystemAt/dashboardT.php");}
                 else if($tipoUsuario==3){
-                    header("location:../SystemAt-main/dashboardP.php");    
+                    header("location:../SystemAt/dashboardP.php");    
                 }
                 else if($tipoUsuario==4){
-                    header("location:../SystemAt-main/dashboardE.php");}
+                    header("location:../SystemAt/dashboardE.php");}
             } else {
                 echo "Error: " . $sql . "<br>" . $conecta->error;
             }
