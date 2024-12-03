@@ -1,3 +1,7 @@
+<?php 
+include 'include/conexion.php';
+include 'include/log.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,17 +29,17 @@
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 justify-content-center">
             
-            <input type="email" name="" id="" placeholder ="Email" class=" inp form-control mt-3">
+            <input type="Email" name="Email" id="Email" placeholder ="Email" class=" inp form-control mt-3">
 
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             
-            <input type="password" name="pass" id="Pass" placeholder ="contraseña" class=" inp form-control mt-2">
+            <input type="Password" name="Password" id="Password" placeholder ="contraseña" class=" inp form-control mt-2">
 
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             
-        <input type="submit" value="Iniciar Sesion" name="registrar" class="boton form-control  mt-3 text-light">
+        <input type="submit" value="registrar" name="Iniciar Sesion" class="boton form-control  mt-3 text-light">
 
         </div>
 
