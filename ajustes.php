@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    
+<?php include 'process\cerrar_sesion.php'; ?>
+
     <nav class="navbar navbar-light bg-light shadow">
         <div class="container-fluid">
             <a class="icon nav-link active" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button">
@@ -38,7 +41,7 @@
                 <p><img src="img/perms.svg" class="p-2" srcset="">permisos</p>
             </div>
             <div class="row mt-2">
-                <a href="" class="text-decoration-none text-dark">
+                <a href="" class="text-decoration-none text-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                 <p><img src="img/Logout.svg" class="p-2" srcset="">cerrar sesión</p>
             </div>
         </div>
