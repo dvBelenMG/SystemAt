@@ -1,6 +1,9 @@
 .body {
     display: flex;
 }
+.barra{
+    z-index: 2;
+}
 .aside {
     width: 20%;
     height: 100vh;
@@ -13,11 +16,8 @@
 }
 
 .contenido {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 23%;
 }
 
-.barra{
-    z-index: 2;
-}
