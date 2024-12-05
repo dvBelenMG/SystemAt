@@ -9,10 +9,15 @@
     position: fixed;
     top: 1;
     left: 0;
+    z-index: 1;
 }
 
 .contenido {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 23%;
+}
+
+.barra{
+    z-index: 2;
 }

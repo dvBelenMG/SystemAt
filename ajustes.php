@@ -15,7 +15,7 @@ include 'process/cerrar_sesion.php';
 
 <body>
 
-    <nav class="navbar navbar-light bg-light shadow">
+    <nav class="barra navbar navbar-light bg-light shadow">
         <div class="container-fluid">
             <a class="icon nav-link active" data-bs-toggle="offcanvas" href="#offcanvasMenu" role="button">
                 <img src="img/list.svg" width="40px" alt="">

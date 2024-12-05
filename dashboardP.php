@@ -37,7 +37,7 @@
         <!--apartados del dashboard-->
         <div class="row mt-3 justify-content-center">
             <div class="col-3 text-center">
-                <img src="img/book.png" width="140px" class="img-fluid" alt="...">
+                <nav><a href=""><img src="img/book.png" width="140px" class="img-fluid" alt="..."></a></nav>
                 <p class="small">Actividades</p>
             </div>
             <div class="col-3 text-center">
