@@ -39,7 +39,7 @@ include 'include/log.php';
         </div>
         <div class="col-sm-12 col-md-12 col-lg-12 text-center">
             
-        <input type="submit" value="registrar" name="Iniciar Sesion" class="boton form-control  mt-3 text-light">
+        <input type="submit" value="iniciar sesion" name="Iniciar Sesion" class="boton form-control  mt-3 text-light">
 
         </div>
 

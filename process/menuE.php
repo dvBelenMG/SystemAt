@@ -8,6 +8,7 @@
         <p><img src="img/home.svg" class="p-2" srcset="">inicio</p>
     </div>
     <div class="row mt-2">
+        <a href="ajustes2.php" class="text-decoration-none text-dark">
         <p><img src="img/settings-sharp.svg" class="p-2" srcset="">ajustes</p>
     </div>
     <div class="row mt-2">
