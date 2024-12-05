@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php include 'process\menuA.php';
+<?php include 'process\menuP.php';
       include 'process/cerrar_sesion.php';
       
 ?>
