@@ -10,8 +10,8 @@
       <img src="img/logout2.svg" alt="">
       </div>
       <div class="modal-footer justify-content-center">
-        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cancelar</button>
-        <button type="button" class="btn btn-primary"><a href="pantalla1.php" class="text-decoration-none text-white">cerrar sesión</a></button>
+        <button type="button" class="btn btn-primary"><a href="ajustes2.php" class="text-decoration-none text-white" data-bs-dismiss="modal">cancelar</a></button>
+        <button type="button" class="btn btn-primary"><a href="index.php" class="text-decoration-none text-white">cerrar sesión</a></button>
       </div>
     </div>
   </div>
