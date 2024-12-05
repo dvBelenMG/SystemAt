@@ -40,11 +40,11 @@ include 'include/Reg.php';
         <!--apartados del dashboard-->
         <div class="row mt-3">
             <div class="col-3 text-center">
-                <img src="img/peoples.png" width="140px" class="img-fluid" alt="...">
+                <nav><a href="actividadesT.php"><img src="img/book.png" width="140px" class="img-fluid" alt="..."></a></nav>
                 <p class="small">Actividades</p>
             </div>
             <div class="col-3 text-center">
-                <img src="img/book.png" width="140px" class="img-fluid" alt="...">
+                <img src="img/peoples.png" width="140px" class="img-fluid" alt="...">
                 <p class="small">Especialistas</p>
             </div>
             <div class="col-3 text-center">

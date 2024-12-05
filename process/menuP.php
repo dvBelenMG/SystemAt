@@ -5,6 +5,7 @@
   </div>
   <div class="offcanvas-body">
     <div class="row mt-2">
+        <a href="dashboardP.php" class="text-decoration-none text-dark">
         <p><img src="img/home.svg" alt="" srcset="">inicio</p>
     </div>
     <div class="row mt-2">
@@ -12,7 +13,8 @@
         <p><img src="img/settings-sharp.svg" alt="" srcset="">ajustes</p>
     </div>
     <div class="row mt-2">
-    <p><img src="img/user-avatar-filled.svg" alt="" srcset="">perfil</p>
+        <a href="perfilP.php" class="text-decoration-none text-dark">
+        <p><img src="img/user-avatar-filled.svg" alt="" srcset="">perfil</p>
     </div>
   </div>
 </div>
