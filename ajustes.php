@@ -1,3 +1,7 @@
+<?php
+include 'include/conexion.php';
+include 'process/cerrar_sesion.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,8 +14,6 @@
 </head>
 
 <body>
-    
-<?php include 'process\cerrar_sesion.php'; ?>
 
     <nav class="navbar navbar-light bg-light shadow">
         <div class="container-fluid">
