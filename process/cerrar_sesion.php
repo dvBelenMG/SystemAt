@@ -11,7 +11,7 @@
       </div>
       <div class="modal-footer justify-content-center">
         <button type="button" class="btn btn-primary" data-bs-dismiss="modal">cancelar</button>
-        <button type="button" class="btn btn-primary">cerrar sesión</button>
+        <button type="button" class="btn btn-primary"><a href="pantalla1.php" class="text-decoration-none text-white">cerrar sesión</a></button>
       </div>
     </div>
   </div>
