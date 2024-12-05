@@ -11,6 +11,7 @@
         <p style="font-family: poppins, erif;"><img src="img/home.svg" alt="" srcset="">  inicio</p>
     </div>
     <div class="row mt-2">
+        <a href="ajustes2.php" class="text-decoration-none text-dark">
         <p style="font-family: poppins, erif;" ><img src="img/settings-sharp.svg" alt="" srcset="">   ajustes</p>
     </div>
     <div class="row mt-2">
